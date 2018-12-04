@@ -18,6 +18,7 @@ const Overlay = props => (
         <br />
         Friday – Saturday | 3 pm – 11:30 pm
         <br />
+        <br />
         *THE BAR WILL BE CLOSED WEDNESDAY, DECEMBER 5TH AND WEDNESDAY, DECEMBER
         12TH FOR PRIVATE EVENTS*
         <br />
