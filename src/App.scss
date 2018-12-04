@@ -82,7 +82,7 @@ body {
 
 #header-pipe {
   height: 40px;
-  width: 1.5px;
+  width: 1px;
   background-color: black;
 }
 
@@ -197,8 +197,8 @@ body {
 }
 
 .overlay h1 {
-  font-family: "Avenir", sans-serif;
-  font-weight: 400;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 300;
   font-size: 60px;
   line-height: 50px;
   margin: 0;
@@ -206,8 +206,8 @@ body {
 }
 
 .overlay p {
-  font-family: "Avenir", sans-serif;
-  font-weight: 500;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 300;
   font-size: 18px;
   margin-top: -15px;
   width: 50vw;
@@ -241,6 +241,11 @@ body {
   margin-right: 138px;
 }
 
+#announce-title {
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+}
 .presenter-text {
   text-decoration: underline;
 }

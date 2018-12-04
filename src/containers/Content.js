@@ -6,7 +6,10 @@ class Content extends React.Component {
       <div className="content">
         <div className="announce-wrapper">
           <div id="announce">
-            <div id="announce-text">some text</div>
+            <div id="announce-text">
+              <h2 id="announce-title">HOLIDAY HOURS</h2>
+              <p />
+            </div>
             <div id="announce-logo" />
           </div>
         </div>
