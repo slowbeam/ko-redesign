@@ -7,9 +7,10 @@ import uuid from "uuid";
 class ReactResponsiveCarousel extends React.Component {
   renderImageSlides = () => {
     const slideArray = [
-      require("../images/hero-panel.png"),
-      require("../images/hero-panel-2.png"),
-      require("../images/hero-panel-3.png")
+      require("../images/hero-1.jpg"),
+      require("../images/hero-2.jpg"),
+      require("../images/hero-3.jpg"),
+      require("../images/hero-4.jpg")
     ];
 
     return slideArray.map(url => <ImageSlide key={uuid()} src={url} />);
