@@ -201,14 +201,6 @@ body {
   padding: 0;
 }
 
-.overlay h3 {
-  font-family: "Adobe Caslon Pro", serif;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .overlay p {
   font-family: "Avenir", sans-serif;
   font-weight: 500;
@@ -217,51 +209,11 @@ body {
   width: 50vw;
 }
 
-.masonry {
-  margin-top: 75px;
-  column-count: 3;
-  column-gap: 4em;
+.content {
   width: 100%;
-  max-width: 1160px;
-}
-
-.masonry-item {
-  background-color: #fff;
-  display: inline-block;
-  margin-bottom: 50px;
-  width: 100%;
-  border-bottom: 1px solid $med_grey;
-  cursor: pointer;
-}
-
-.masonry-img {
-  width: 100%;
-}
-
-.masonry-item-date {
-  font-family: "Arial", sans-serif;
-  font-size: 11px;
-  color: $med_grey;
-  margin-top: 40px;
-  margin-bottom: 15px;
-}
-
-.masonry-item-title {
-  font-family: "Springville Regular", serif;
-  font-size: 48px;
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-
-.masonry-item-title:hover {
-  text-decoration: underline;
-}
-
-.masonry-item-presented {
-  font-family: "Adobe Caslon Pro", sans-serif;
-  font-size: 14px;
-  margin-top: 0;
-  margin-bottom: 50px;
+  flex: 1;
+  max-width: $max_width;
+  background-color: #feefce;
 }
 
 .presenter-text {
@@ -271,14 +223,40 @@ body {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 75px 0;
-  font-family: "Arial Bold", sans-serif;
-  font-size: 11px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: $max_width;
+  height: 100px;
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+}
+
+.footer-logo {
+  background-image: url("./images/ko_logo_no_text.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+}
+
+.footer-left {
+  display: flex;
+  padding-left: 50px;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  padding-right: 50px;
 }
 
 .footer-link {
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 
