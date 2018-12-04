@@ -5,12 +5,26 @@ const Overlay = props => (
     <div className="overlay-text">
       <h1>KO</h1>
       <br />
-      <h1>DVF Secret Agent Part 2</h1>
-      <h3>October 15, 2017</h3>
+      <br />
       <p>
-        Join us for a private screening of DVF Secret Agent Part 2
+        8 Extra Place
         <br />
-        with our special guest, director Peter Lindberg
+        (off 1st Street between 2nd Avenue and Bowery)
+        <br />
+        New York, NY 10003 | map
+        <br />
+        <br />
+        Bar Tuesday – Thursday | 5 pm – 11:30 pm
+        <br />
+        Friday – Saturday | 3 pm – 11:30 pm
+        <br />
+        *THE BAR WILL BE CLOSED WEDNESDAY, DECEMBER 5TH AND WEDNESDAY, DECEMBER
+        12TH FOR PRIVATE EVENTS*
+        <br />
+        <br />
+        Lunch Friday – Sunday
+        <br />
+        Dinner Tuesday – Saturday
       </p>
     </div>
   </div>

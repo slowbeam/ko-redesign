@@ -177,11 +177,14 @@ body {
   position: absolute;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   width: 100%;
+  height: 560px;
   max-width: $max_width;
   z-index: 10;
-  top: 25%;
+  top: 120px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .overlay-text {
@@ -190,7 +193,7 @@ body {
 }
 
 .overlay h1 {
-  font-family: "Avenir", serif;
+  font-family: "Avenir", sans-serif;
   font-weight: 400;
   font-size: 60px;
   line-height: 50px;
@@ -200,17 +203,18 @@ body {
 
 .overlay h3 {
   font-family: "Adobe Caslon Pro", serif;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .overlay p {
-  font-family: "Adobe Caslon Pro", serif;
-  font-weight: 400;
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   margin-top: -15px;
+  width: 50vw;
 }
 
 .masonry {
