@@ -4,7 +4,11 @@ import HamburgerButton from "./HamburgerButton";
 const NavBar = props => (
   <div className="navbar">
     <nav className="navbar-navigation">
-      <div className="navbar-logo" />
+      <div className="navbar-left">
+        <div className="navbar-logo" />
+        <div id="header-pipe" />
+        <div id="navbar-left-text">New York</div>
+      </div>
       <div className="navigation-items">
         <div className="navbar-phone">contact</div>
         <div className="navbar-login">newsletter</div>

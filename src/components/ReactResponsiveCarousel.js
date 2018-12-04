@@ -27,6 +27,10 @@ class ReactResponsiveCarousel extends React.Component {
         infiniteLoop={true}
         autoPlay={true}
         interval={5000}
+        showIndicators={false}
+        swipeable={true}
+        emulateTouch={true}
+        transitionTime={1000}
       >
         {this.renderImageSlides()}
       </Carousel>

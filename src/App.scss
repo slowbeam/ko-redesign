@@ -19,6 +19,11 @@ html {
   min-width: $min_width;
 }
 
+body {
+  font-family: "Avenir";
+  font-weight: 300;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -51,13 +56,20 @@ html {
   z-index: 20;
 }
 
+.navbar-left {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
+
 .navbar-navigation {
   display: flex;
   justify-content: space-between;
   height: 100%;
   align-items: center;
-  padding-left: calc(100vw * 0.1);
-  padding-right: calc(100vw * 0.1);
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .navbar-logo {
@@ -68,9 +80,15 @@ html {
   width: 100px;
 }
 
+#header-pipe {
+  height: 40px;
+  width: 1.5px;
+  background-color: black;
+}
+
 .navigation-items {
   display: flex;
-  font: bold 11px Arial, sans-serif;
+  font: light 11px "Avenir", sans-serif;
   color: $med_grey;
   align-items: center;
 }
@@ -88,8 +106,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 25px;
-  width: 10px;
+  height: 30px;
+  width: 16px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -102,8 +120,8 @@ html {
 }
 
 .hamburger-button-line {
-  width: 10px;
-  height: 1px;
+  width: 16px;
+  height: 2px;
   background-color: black;
 }
 
@@ -172,7 +190,7 @@ html {
 }
 
 .overlay h1 {
-  font-family: "Springville Regular", serif;
+  font-family: "Avenir", serif;
   font-weight: 400;
   font-size: 60px;
   line-height: 50px;
@@ -265,11 +283,6 @@ html {
 }
 
 @media only screen and (min-width: 1440px) {
-  .navbar-navigation {
-    padding-left: 140px;
-    padding-right: 140px;
-  }
-
   .overlay-text {
     padding-left: 140px;
   }
