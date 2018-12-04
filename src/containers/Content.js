@@ -4,9 +4,11 @@ class Content extends React.Component {
   render() {
     return (
       <div className="content">
-        <div id="announce">
-          <div id="announce-text">some text</div>
-          <div id="announce-logo" />
+        <div className="announce-wrapper">
+          <div id="announce">
+            <div id="announce-text">some text</div>
+            <div id="announce-logo" />
+          </div>
         </div>
       </div>
     );
