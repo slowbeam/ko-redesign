@@ -10,8 +10,8 @@ const NavBar = props => (
         <div id="navbar-left-text">New York</div>
       </div>
       <div className="navigation-items">
-        <div className="navbar-phone">contact</div>
-        <div className="navbar-login">newsletter</div>
+        <div className="navbar-contact">contact</div>
+        <div className="navbar-newsletter">newsletter</div>
         <div>
           <HamburgerButton />
         </div>
