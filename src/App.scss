@@ -30,6 +30,7 @@ body {
   justify-content: space-around;
   height: $page_height;
   align-items: center;
+  width: 100%;
 }
 
 .App {
@@ -290,8 +291,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   height: 900px;
-  width: 100%;
   max-width: 1161px;
   background-color: white;
   padding: 50px 50px;
@@ -326,7 +327,6 @@ body {
 
 #info-div-hr {
   width: 100%;
-  position: relative;
 }
 
 #info-box-two {
@@ -458,18 +458,21 @@ body {
   #info-box-one {
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     height: 45%;
   }
 
   #info-box-two {
     flex-direction: column-reverse;
     justify-content: space-around;
+    align-items: center;
     height: 45%;
   }
 
   #announce {
     flex-direction: column-reverse;
     justify-content: space-around;
+    align-items: center;
     height: 400px;
     width: 350px;
     margin: 50px;
@@ -552,10 +555,6 @@ body {
     font-size: 15px;
   }
 
-  .overlay-text {
-    padding-left: 50px;
-  }
-
   #info-box-one {
     flex-direction: column;
     justify-content: space-around;
@@ -601,9 +600,6 @@ body {
     height: 1300px;
     padding: 50px;
     justify-content: space-between;
-    width: 80vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
   }
 
   #info-div img {
@@ -681,101 +677,102 @@ body {
   }
 }
 
-@media only screen and (max-width: 550px) {
-  .overlay-text p {
-    font-size: 15px;
-  }
-
-  .overlay-text {
-    padding-left: 50px;
-  }
-
-  #info-div {
-    width: 100vw;
-    margin: 0;
-  }
-
-  #announce {
-    height: 500px;
-  }
-
-  #info-box-one {
-    width: 88vw;
-    height: 700px;
-  }
-
-  #info-box-two {
-    width: 85vw;
-  }
-
-  #info-div img {
-    width: 85vw;
-    max-width: 506px;
-    height: auto;
-  }
-
-  #info-div a {
-    font-size: 12px;
-  }
-
-  #info-box-one h2 {
-    margin-right: 20px;
-  }
-
-  #info-box-one-text {
-    margin-bottom: 100px;
-  }
-
-  #info-box-two-text {
-    margin-bottom: 100px;
-  }
-
-  #navbar-left-text {
-    display: none;
-  }
-
-  #header-pipe {
-    display: none;
-  }
-
-  .navbar-contact {
-    display: none;
-  }
-
-  .navbar-newsletter {
-    display: none;
-  }
-
-  .navbar {
-    height: 60px;
-  }
-
-  .navbar-navigation {
-    height: 60px;
-  }
-
-  .navbar-logo {
-    height: 40px;
-    width: 40px;
-  }
-
-  .carousel {
-    top: 60px;
-  }
-
-  .my-carousel .carousel .carousel-slider {
-    top: 60px;
-  }
-
-  .overlay {
-    top: 60px;
-  }
-
-  .footer {
-    font-size: 12px;
-  }
-
-  .footer-left {
-    width: 90%;
-  }
-}
+// @media only screen and (max-width: 550px) {
+//   .overlay-text p {
+//     font-size: 15px;
+//   }
+//
+//   .overlay-text {
+//   }
+//
+//   #info-div {
+//     width: 100%;
+//     margin-left: 50px;
+//     margin-right: 50px;
+//   }
+//
+//   #announce {
+//     height: 500px;
+//   }
+//
+//   #info-box-one {
+//     width: 88vw;
+//     height: 700px;
+//   }
+//
+//   #info-box-two {
+//     width: 85vw;
+//   }
+//
+//   #info-div img {
+//     width: 85vw;
+//     max-width: 506px;
+//     height: auto;
+//   }
+//
+//   #info-div a {
+//     font-size: 12px;
+//   }
+//
+//   #info-box-one h2 {
+//     margin-right: 20px;
+//   }
+//
+//   #info-box-one-text {
+//     margin-bottom: 100px;
+//   }
+//
+//   #info-box-two-text {
+//     margin-bottom: 100px;
+//   }
+//
+//   #navbar-left-text {
+//     display: none;
+//   }
+//
+//   #header-pipe {
+//     display: none;
+//   }
+//
+//   .navbar-contact {
+//     display: none;
+//   }
+//
+//   .navbar-newsletter {
+//     display: none;
+//   }
+//
+//   .navbar {
+//     height: 60px;
+//   }
+//
+//   .navbar-navigation {
+//     height: 60px;
+//   }
+//
+//   .navbar-logo {
+//     height: 40px;
+//     width: 40px;
+//   }
+//
+//   .carousel {
+//     top: 60px;
+//     height: 560px;
+//   }
+//
+//   .my-carousel .carousel .carousel-slider {
+//     top: 60px;
+//   }
+//
+//   .overlay {
+//     top: 60px;
+//   }
+//
+//   .footer {
+//     font-size: 12px;
+//   }
+//
+//   .footer-left {
+//     width: 90%;
+//   }
+// }
