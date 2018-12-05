@@ -38,9 +38,13 @@ class Content extends React.Component {
                     Dining Room and are accepted online 30 days in advance.
                   </p>
                   <div id="info-one-links">
-                    <a href="#">COUNTER RESERVATIONS</a>
+                    <a href="https://sandy-edwards-ko-redesign.herokuapp.com/">
+                      COUNTER RESERVATIONS
+                    </a>
                     &nbsp; | &nbsp;
-                    <a href="#">TABLE RESERVATIONS</a>
+                    <a href="https://sandy-edwards-ko-redesign.herokuapp.com/">
+                      TABLE RESERVATIONS
+                    </a>
                   </div>
                 </div>
               </div>
@@ -67,9 +71,13 @@ class Content extends React.Component {
                     taken.
                   </p>
                   <div id="info-one-links">
-                    <a href="#">MORE INFO</a>
+                    <a href="https://sandy-edwards-ko-redesign.herokuapp.com/">
+                      MORE INFO
+                    </a>
                     &nbsp; | &nbsp;
-                    <a href="#">VIEW MENU</a>
+                    <a href="https://sandy-edwards-ko-redesign.herokuapp.com/">
+                      VIEW MENU
+                    </a>
                   </div>
                 </div>
               </div>
